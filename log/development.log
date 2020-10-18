@@ -1,0 +1,490 @@
+  [1m[35m (30.2ms)[0m  [1m[35mCREATE DATABASE "keijiban_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "keijiban_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(805186447683788625)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(805186447683788625)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "riley.auer@mayer.name"], ["encrypted_password", "$2a$11$KIzQTaOJlge3Nxc5Kmh21OYVDUMcGi/lKucFY9WfDJZht0s/tWMqa"], ["updated_at", "2020-10-18 21:44:31.729263"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "brady@satterfield.io"], ["encrypted_password", "$2a$11$5RhCFdbDYWmYUVj3sFlLp.rPTDe52zWQwnp4GIsZJdMytIQQ.Q0VO"], ["updated_at", "2020-10-18 21:44:31.875135"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "len@gleichner.net"], ["encrypted_password", "$2a$11$v23jwVkX.L1/x2XTbLKIAe1IloDnBf3ktiCrpGuDjy7LVS0FMBcdq"], ["updated_at", "2020-10-18 21:44:32.022334"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "france.grant@fay.com"], ["encrypted_password", "$2a$11$gsxrEwEmco5bTdOVLo/uRerDkv6bKerEEZtQhcMWGJSddJBKsgOk6"], ["updated_at", "2020-10-18 21:44:32.174291"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "eulah@lubowitz-daugherty.co"], ["encrypted_password", "$2a$11$n5b.YsFOZLBG1lafcUDmFe9fjE9OdhOdZsdw.oqjNP5naN/3vxyHS"], ["updated_at", "2020-10-18 21:44:32.319919"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "enedina_deckow@jacobi.net"], ["encrypted_password", "$2a$11$bmhqTuXMw8RV/C5eqU.ZWeg27v8eEOpWQZoEo.1/bWHIfVhLtKQRi"], ["updated_at", "2020-10-18 21:44:32.465614"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "emelina@purdy-conroy.biz"], ["encrypted_password", "$2a$11$tmCQKMCyUQXQED8oQFZt5.Qo5DpkvVeezjSuPMrCYRwyPYsIC9ltS"], ["updated_at", "2020-10-18 21:44:32.608306"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "twanna@flatley.com"], ["encrypted_password", "$2a$11$.m8OIiws.Kp8KhajG8YvgO8.xtKnGDrc3Xc9VCrOEwCr4KKFVGBzC"], ["updated_at", "2020-10-18 21:44:32.750851"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "santos_lebsack@hermann-smith.info"], ["encrypted_password", "$2a$11$G6LWjO8oBpFkzbm.ddKhVukd9AMs/GOcdyBDK5KiWGZc0uGj51QkK"], ["updated_at", "2020-10-18 21:44:32.898452"], ["id", 9]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "lorina_sauer@sawayn-purdy.org"], ["encrypted_password", "$2a$11$ZHwQ8jRWQPyJca12wfLQWu2QzMR02l4kVMyNnAVytfSGYK.K1xsPa"], ["updated_at", "2020-10-18 21:44:33.041718"], ["id", 10]]
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[34m              SELECT setval('public.users_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.users_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.users_id_seq'::regclass)) FROM "users"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.4ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.3ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Update (0.3ms)[0m  [1m[33mUPDATE "teams" SET "name" = $1, "updated_at" = $2 WHERE "teams"."id" = $3[0m  [["name", "Ventosanzap"], ["updated_at", "2020-10-18 21:44:33.170765"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.2ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Update (0.2ms)[0m  [1m[33mUPDATE "teams" SET "name" = $1, "updated_at" = $2 WHERE "teams"."id" = $3[0m  [["name", "Flowdesk"], ["updated_at", "2020-10-18 21:44:33.172611"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34m              SELECT setval('public.teams_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.teams_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.teams_id_seq'::regclass)) FROM "teams"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.2ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.2ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.1ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.1ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34m              SELECT setval('public.assigns_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.assigns_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.assigns_id_seq'::regclass)) FROM "assigns"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.4ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.5ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Oliver"], ["description", "Emirates Feline Federation"], ["updated_at", "2020-10-18 21:44:33.212015"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.3ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Molly"], ["description", "Associazione Nazionale Felina Italiana"], ["updated_at", "2020-10-18 21:44:33.214605"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Shadow"], ["description", "Fédération Internationale Féline"], ["updated_at", "2020-10-18 21:44:33.216523"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.2ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Smokey"], ["description", "Fancy Southern Africa Cat Council"], ["updated_at", "2020-10-18 21:44:33.218456"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Shadow"], ["description", "Fédération Internationale Féline"], ["updated_at", "2020-10-18 21:44:33.220162"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "updated_at" = $2 WHERE "agendas"."id" = $3[0m  [["title", "Smudge"], ["updated_at", "2020-10-18 21:44:33.221898"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.4ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Angel"], ["description", "Emirates Feline Federation"], ["updated_at", "2020-10-18 21:44:33.223746"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.5ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Misty"], ["description", "Cat Aficionado Association"], ["updated_at", "2020-10-18 21:44:33.226319"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34m              SELECT setval('public.agendas_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.agendas_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.agendas_id_seq'::regclass)) FROM "agendas"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Grapes of Wrath"], ["content", "* はじめて。 \n* 旧姓。 \n* 大尉。 \n* 重い。 \n* 同僚。 \n* そあく。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.281177"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Road Less Traveled"], ["content", "```ruby\nむく。\n```"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.284327"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Gone with the Wind"], ["content", "0. 気持ちいい。 \n1. 退く。 \n2. かん。 \n3. 浸す。 \n4. ちあん。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.286770"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Fame Is the Spur"], ["content", "_ねんじゅう割り箸碁。むく疾走自立。魅力あしくび十台。_"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.289385"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Vile Bodies"], ["content", "`かんじる。`"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.292729"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "To Say Nothing of the Dog"], ["content", "### 血液"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.295545"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "A Time of Gifts"], ["content", "`天井。`"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.297750"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "All the King's Men"], ["content", "遮断 | 評価 | とめる\n---- | ---- | ----\n飽くまでも | 指紋 | 老齢\nかっこう | 学者 | ぼくし"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.299867"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.2ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Stranger in a Strange Land"], ["content", "* 活用。 \n* めいし。 \n* 体重。 \n* 店舗。 \n* けいけんしゃ。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.301923"], ["id", 9]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.2ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Moving Toyshop"], ["content", "#### いく\n報じる投資しゃくや。汚すげんめつ平安。かんじるほうしゅう果樹。\n* 魅力。 \n* 割り箸。 \n* 斬殺。 \n* 寮生。 \n* 太る。 \n* かんそく。 \n* 天井。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.303906"], ["id", 10]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "To Sail Beyond the Sunset"], ["content", "にんい | せいじょう | しょうじょう\n---- | ---- | ----\n半額 | うえる | かぶしきしじょう\nこうせい | きげんご | 堀川"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.305854"], ["id", 11]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "A Farewell to Arms"], ["content", "* しょうがっこう。 \n* 防犯。 \n* 問題。 \n* お盆。 \n* きんく。 \n* あらそう。 \n* 減俸。 \n* かんしん。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.308582"], ["id", 12]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Nine Coaches Waiting"], ["content", "#### じぎする"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.311287"], ["id", 13]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Far-Distant Oxus"], ["content", "```ruby\n暴力。\n```"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.313681"], ["id", 14]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Death Be Not Proud"], ["content", "鍋 | かんぜん | 飽くまでも\n---- | ---- | ----\n当て字 | 悲しみ | 宜しく\nごうけん | 書き方 | 浸す"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.316014"], ["id", 15]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.2ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Terrible Swift Sword"], ["content", "0. しきもう。 \n1. 果樹。 \n2. こうちょく。 \n3. へいがい。 \n4. 始まる。 \n5. フランス語。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:44:33.318412"], ["id", 16]]
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34m              SELECT setval('public.articles_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.articles_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.articles_id_seq'::regclass)) FROM "articles"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[35m (24.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2020-10-18 22:45:01 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticsController#top as HTML
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-10-18 22:45:02 +0100
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/login/application
+  Rendered users/shared/_links.html.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/login/application (65.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/wilromeo/diveintopost/public/packs
+Completed 200 OK in 18092ms (Views: 18065.0ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-10-18 22:46:38 +0100
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"959WcuX53LQaf5v2A5xzBwbhnZZQXaXGHjyFr7a44rGHnjhR3Sb4K02BinsHv2j/e+wHGQRlHU/0JGXT4Qe4vA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"959WcuX53LQaf5v2A5xzBwbhnZZQXaXGHjyFr7a44rGHnjhR3Sb4K02BinsHv2j/e+wHGQRlHU/0JGXT4Qe4vA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  Rendering users/sessions/new.html.erb within layouts/login/application
+  Rendered users/shared/_links.html.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/login/application (5.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-10-18 22:46:40 +0100
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iVt6RRcHuLtgxO6kY93pmGiMZ6MaxjLd3F3NdPavcFr5WhRmL9icJDc6/yln/vJgFYH9LE7+ilQ2RS0IoRAqVw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iVt6RRcHuLtgxO6kY93pmGiMZ6MaxjLd3F3NdPavcFr5WhRmL9icJDc6/yln/vJgFYH9LE7+ilQ2RS0IoRAqVw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  Rendering users/sessions/new.html.erb within layouts/login/application
+  Rendered users/shared/_links.html.erb (0.8ms)
+  Rendered users/sessions/new.html.erb within layouts/login/application (2.7ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-10-18 22:46:42 +0100
+Processing by Users::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/login/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_users_registrations_new_html_erb___4589670672574988305_70207118204860 at /home/wilromeo/diveintopost/app/views/users/registrations/new.html.erb:4)
+  Rendered users/shared/_links.html.erb (1.2ms)
+  Rendered users/registrations/new.html.erb within layouts/login/application (6.2ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-10-18 22:47:05 +0100
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5ypLcWSMcuLg2kcv1FyL/FIwVRfOmAwKkm6GGs5ci3eZvdYKTexo84yZi3BD0MS6jfWMLqnmkufKwNoAcxOA0A==", "user"=>{"email"=>"kpondehou@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "kpondehou@gmail.com"], ["LIMIT", 1]]
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  Rendering users/registrations/new.html.erb within layouts/login/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_users_registrations_new_html_erb___4589670672574988305_70207118140980 at /home/wilromeo/diveintopost/app/views/users/registrations/new.html.erb:4)
+  Rendered vendor/bundle/ruby/2.6.0/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (1.9ms)
+  Rendered users/shared/_links.html.erb (0.7ms)
+  Rendered users/registrations/new.html.erb within layouts/login/application (17.1ms)
+Completed 200 OK in 212ms (Views: 23.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for ::1 at 2020-10-18 22:47:32 +0100
+Processing by Users::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"37u/V0QafgDe2udpQSyQTWk8W0fg9J4XHmv72oNI7gehLCIsbXpkEbKZKzbWoN8LtvmCfoeKAPpGxafAPgfloA==", "user"=>{"email"=>"kpondehou@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"S'inscrire"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "kpondehou@gmail.com"], ["LIMIT", 1]]
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  Rendering users/registrations/new.html.erb within layouts/login/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_users_registrations_new_html_erb___4589670672574988305_70207120220020 at /home/wilromeo/diveintopost/app/views/users/registrations/new.html.erb:4)
+  Rendered vendor/bundle/ruby/2.6.0/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (0.9ms)
+  Rendered users/shared/_links.html.erb (0.6ms)
+  Rendered users/registrations/new.html.erb within layouts/login/application (5.1ms)
+Completed 200 OK in 158ms (Views: 11.5ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (1.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "nohemi@satterfield-schuppe.info"], ["encrypted_password", "$2a$11$TTzIhehT4TWQ.o1i03ACKOZ6/yefMPckyaPNvwqO3oGUTHrXMkc/6"], ["updated_at", "2020-10-18 21:53:28.714888"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "athena@mills-ritchie.info"], ["encrypted_password", "$2a$11$yKvJxxTTviNqUzvl1ZfM9u9EFR/u3kEnQuvXaaAr1ioqF0uyHdhWq"], ["updated_at", "2020-10-18 21:53:28.871111"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "lynwood@kling.info"], ["encrypted_password", "$2a$11$96uzqv8fSjVrOVsZ0VogTOwZpP9w54/0uheWL6/.xzUMMhyR2IUde"], ["updated_at", "2020-10-18 21:53:29.014423"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "treva.weimann@durgan-fay.biz"], ["encrypted_password", "$2a$11$OzveVCcNJejH4PU83P7QTOMQhb9LvboLmSwpjkaL1G9dUU4D/Nu0G"], ["updated_at", "2020-10-18 21:53:29.157460"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "inger.goldner@boyle.co"], ["encrypted_password", "$2a$11$ZSFYc26lNDDRHrw1.OdFpeFFW7ZDCKKDWKNX/IHiOEUw8xQGXBfNm"], ["updated_at", "2020-10-18 21:53:29.301035"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "roderick@koss.co"], ["encrypted_password", "$2a$11$2bAVCDqnCKTU4/6e6ExxpeRIxGR/qBnh5TekdL9bXdxtmmH81iThe"], ["updated_at", "2020-10-18 21:53:29.456207"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "jackqueline@emard.io"], ["encrypted_password", "$2a$11$jpJ2nER5muvFogf1.YNUne1Yd.Vwfdz45WMEf43eordV.8iKBu3m6"], ["updated_at", "2020-10-18 21:53:29.609222"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "petronila@gaylord-terry.info"], ["encrypted_password", "$2a$11$cQ1QyKbD3TeqEt4DTQu5vu4nN7XFZ3JGLVm/MSNC1Swaw8kaWtkri"], ["updated_at", "2020-10-18 21:53:29.767514"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "marion.lynch@wuckert.org"], ["encrypted_password", "$2a$11$clAHnFMhPV6e8f7vJcKWLe6DQF0BkFDQ.yoimjP5byWeAk5Jheq.u"], ["updated_at", "2020-10-18 21:53:29.922461"], ["id", 9]]
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "encrypted_password" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["email", "timmy@quigley.net"], ["encrypted_password", "$2a$11$/nGmfhepm0kpan3/uFfXpuU4g6u2/ewv1vGLaHmZ8iLyBrotgQlPm"], ["updated_at", "2020-10-18 21:53:30.079834"], ["id", 10]]
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34m              SELECT setval('public.users_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.users_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.users_id_seq'::regclass)) FROM "users"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.3ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.4ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Update (0.4ms)[0m  [1m[33mUPDATE "teams" SET "name" = $1, "updated_at" = $2 WHERE "teams"."id" = $3[0m  [["name", "QuoLux"], ["updated_at", "2020-10-18 21:53:30.804023"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mTeam Load (0.2ms)[0m  [1m[34mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mTeam Update (0.3ms)[0m  [1m[33mUPDATE "teams" SET "name" = $1, "updated_at" = $2 WHERE "teams"."id" = $3[0m  [["name", "Treeflex"], ["updated_at", "2020-10-18 21:53:30.806775"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34m              SELECT setval('public.teams_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.teams_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.teams_id_seq'::regclass)) FROM "teams"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.6ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.4ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.3ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.4ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.4ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.2ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.2ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAssign Load (0.2ms)[0m  [1m[34mSELECT  "assigns".* FROM "assigns" WHERE "assigns"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34m              SELECT setval('public.assigns_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.assigns_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.assigns_id_seq'::regclass)) FROM "assigns"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.8ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.8ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Charlie"], ["description", "Associazione Nazionale Felina Italiana"], ["updated_at", "2020-10-18 21:53:30.866227"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.4ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.4ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Shadow"], ["description", "Cat Aficionado Association"], ["updated_at", "2020-10-18 21:53:30.873038"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.3ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Lucky"], ["description", "Fancy Southern Africa Cat Council"], ["updated_at", "2020-10-18 21:53:30.876609"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.3ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Sam"], ["description", "Fédération Internationale Féline"], ["updated_at", "2020-10-18 21:53:30.879438"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.3ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (1.2ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Daisy"], ["description", "The International Cat Association"], ["updated_at", "2020-10-18 21:53:30.882246"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.4ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.4ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Max"], ["description", "Cat Aficionado Association"], ["updated_at", "2020-10-18 21:53:30.888965"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.3ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.5ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Felix"], ["description", "Governing Council of the Cat"], ["updated_at", "2020-10-18 21:53:30.892618"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Load (0.2ms)[0m  [1m[34mSELECT  "agendas".* FROM "agendas" WHERE "agendas"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mAgenda Update (0.7ms)[0m  [1m[33mUPDATE "agendas" SET "title" = $1, "description" = $2, "updated_at" = $3 WHERE "agendas"."id" = $4[0m  [["title", "Daisy"], ["description", "Governing Council of the Cat"], ["updated_at", "2020-10-18 21:53:30.896150"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[35m (3.0ms)[0m  [1m[34m              SELECT setval('public.agendas_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.agendas_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.agendas_id_seq'::regclass)) FROM "agendas"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.7ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "To Sail Beyond the Sunset"], ["content", "`ほうしゅう。`"], ["image", nil], ["updated_at", "2020-10-18 21:53:30.963195"], ["id", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (1.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.6ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "In Death Ground"], ["content", "0. 犠牲。 \n1. 検査。 \n2. 洋服。 \n3. 面積。 \n4. 既に。 \n5. 自立。 \n6. ひきさく。 \n7. ぶっきょう。 \n8. 芸者。 \n9. 騎兵。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:53:30.972576"], ["id", 2]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "When the Green Woods Laugh"], ["content", "`どろ。`"], ["image", nil], ["updated_at", "2020-10-18 21:53:30.977647"], ["id", 3]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Blood's a Rover"], ["content", "靖国神社 | 乗せる | 十台\n---- | ---- | ----\n金 | 開閉 | 境\n浮世絵 | ごじゅう | 店舗"], ["image", nil], ["updated_at", "2020-10-18 21:53:30.981339"], ["id", 4]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Lathe of Heaven"], ["content", "* 号。 \n* はじめて。 \n* 逆。 \n* 遮断。 \n* 指紋。 \n* こうせい。 \n* 魔法。 \n* げんめつ。 \n* とめる。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.016454"], ["id", 5]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Cover Her Face"], ["content", "**評価きょうきのき。電話運ぶぶっきょう。こはんあっとうする出かける。**"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.020396"], ["id", 6]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Many Waters"], ["content", "**以下ぼきん味噌。いう宜しく陳列室。ぼくし近視洋服。**"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.023586"], ["id", 7]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "From Here to Eternity"], ["content", "~貫く洋服せっぷく。しえんするほにゅうびんかいじゅう。地面ぼうずかんしん。~"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.027097"], ["id", 8]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Torment of Others"], ["content", "```ruby\nしずむ。\n```"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.030579"], ["id", 9]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Skull Beneath the Skin"], ["content", "```ruby\n味噌。\n```"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.034200"], ["id", 10]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "In a Dry Season"], ["content", "## こうせい"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.037860"], ["id", 11]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Last Enemy"], ["content", "* しずむ。 \n* 奇襲。 \n* 伝統。 \n* 普及。 \n* しゃくや。 \n* じょうだん。 \n* ぐん。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.041549"], ["id", 12]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "Antic Hay"], ["content", "`底。`"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.045310"], ["id", 13]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "No Highway"], ["content", "```ruby\n話。\n```"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.048684"], ["id", 14]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "By Grand Central Station I Sat Down and Wept"], ["content", "0. とちょう。 \n1. 頂く。 \n2. れつあく。 \n3. 出版。 \n4. きょうどう。 \n5. 学院。 \n6. つぎつぎ。 \n7. むぜい。 \n8. 喜劇。 \n9. はだか。 \n"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.052818"], ["id", 15]]
+  ↳ bin/rails:4
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = $1, "content" = $2, "image" = $3, "updated_at" = $4 WHERE "articles"."id" = $5[0m  [["title", "The Violent Bear It Away"], ["content", "~きげんご米国約する。馬鹿馬鹿しい右利き活用。ほうしゅう悲しみ米国。~"], ["image", nil], ["updated_at", "2020-10-18 21:53:31.056697"], ["id", 16]]
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34m              SELECT setval('public.articles_id_seq', (SELECT GREATEST(MAX("id")+(SELECT seqincrement FROM pg_sequence WHERE seqrelid = 'public.articles_id_seq'::regclass), (SELECT seqmin FROM pg_sequence WHERE seqrelid = 'public.articles_id_seq'::regclass)) FROM "articles"), false)
+[0m
+  ↳ bin/rails:4
+  [1m[35m (752.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
